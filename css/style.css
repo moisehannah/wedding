@@ -1,4 +1,39 @@
-.navbar .logo{
+.header{
+    text-align: center;
+}
+.header .logo{
     height:60px;
     width:60px
+}
+#photo-container {
+    background: url(../images/photo3.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: black;
+    text-align: center;
+}
+
+.countdown{
+    color:white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    padding-top:15%;
+}
+.countdown h1 {
+    font-weight: normal;
+}
+
+.countdown li {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+}
+
+.countdown li span {
+    display: block;
+    font-size: 4.5rem;
 }
